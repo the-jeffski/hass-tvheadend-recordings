@@ -1,0 +1,9 @@
+{
+  "domain": "tvheadend_recordings",
+  "name": "Tvheadend recordings sensor",
+  "documentation": "https://github.com/##",
+  "dependencies": [],
+  "codeowners": ["@kodi1"],
+  "requirements": [],
+  "version": "0.0.1"
+}
