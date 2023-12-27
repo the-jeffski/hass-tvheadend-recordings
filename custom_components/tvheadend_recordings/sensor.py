@@ -157,7 +157,7 @@ else:
                     card_item = {}
                     card_item['airdate'] = d['start']
                     card_item['title'] = d['disp_title']
-                    if match := re.search('Season (\d{1,3}(?!\d)|\d\d\d??)\/', d['episode_disp'], re.IGNORECASE):
+                    if match := re.search('Season (\d{1,3}(?!\d)|\d\d\d??)', d['episode_disp'], re.IGNORECASE):
                         season_num = "S" + (match.group(1).zfill(2))
                     else:
                         season_num = ''
